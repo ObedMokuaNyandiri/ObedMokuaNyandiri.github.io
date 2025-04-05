@@ -1,0 +1,7 @@
+- title: "Real-Time Object Detection"
+  description: "YOLOv8-based system with 89% mAP accuracy"
+  url: "https://github.com/ObedMokuaNyandiri/object-detection-system"
+
+- title: "Customer Churn Prediction"
+  description: "XGBoost model reducing false positives by 22%"
+  url: "https://github.com/ObedMokuaNyandiri/customer-churn-analysis"
