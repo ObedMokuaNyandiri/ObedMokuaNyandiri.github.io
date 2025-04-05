@@ -5,20 +5,3 @@ description: >
   Specializing in predictive analytics and intelligent system design
 url: "https://ObedMokuaNyandiri.github.io"
 
-# .github/workflows/jekyll.yml
-name: Jekyll Site CI
-
-on: [push]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - uses: actions/cache@v3
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-    - uses: helaili/jekyll-action@2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
